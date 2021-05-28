@@ -8,12 +8,9 @@ export const SearchBar = () => {
   let history = useHistory();
   const [search, setSearch] = useState("");
 
-  console.log("search : ", search);
-
   const handleSubmit = (e) => {
     e.preventDefault();
     setKeyword(search);
-    console.log("search inside: ", search);
     history.push("/search");
     setSearch("");
   };
