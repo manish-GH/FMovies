@@ -2,7 +2,7 @@
 
 FMovies is a movies app developed using ReactJs and The Movie DB API.
 
-**Click [Here](https://goofy-thompson-b26f65.netlify.app/) to give it a try or watch the [Demo](https://youtu.be/4wYYndaQw0Q)**
+**Click [Here](https://fmovies-app.netlify.app/) to give it a try or watch the [Demo](https://youtu.be/4wYYndaQw0Q)**
 
 
 
