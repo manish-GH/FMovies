@@ -12,7 +12,6 @@ export const Trending = () => {
       `https://api.themoviedb.org/3/trending/all/week?api_key=4dc27c1c4ad1ee9433439640bf8cb85b&page=${page}`
     );
 
-    console.log(data);
     setContent(data.results);
   };
 
