@@ -10,14 +10,11 @@ export const Search = () => {
   const [numOfPages, setNumOfPages] = useState();
   const [page, setPage] = useState(1);
 
-  console.log("Search.js: ", keyword);
-
   const fetchSearch = async () => {
     const { data } = await axios.get(
       `https://api.themoviedb.org/3/search/multi?api_key=4dc27c1c4ad1ee9433439640bf8cb85b&language=en-US&query=${keyword}&page=${page}&include_adult=false`
     );
 
-    console.log(data);
     setNumOfPages(data.total_pages);
     setContent(data.results);
   };
